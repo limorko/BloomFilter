@@ -15,8 +15,8 @@ When a key is inserted into the Bloom Filter, it is hashed numHashes number of t
 
 # Methods 
 - insert(key): inserts a key into the Bloom Filter, does not return anything because it always succeeds 
-- find(key): Returns True if the key being searched MAY have been inserted into the Bloom Filter 
+- find(key): Returns True if the key being searched MAY have been inserted into the Bloom Filter; 
              Returns False if key being searched definitely hasn't been inserted into the Bloom Filter 
-- falsePositiveRate(): Returns the projected current false positive rate based on the actual current number of bits actually set in this Bloom Filter
+- falsePositiveRate(): Returns the projected current false positive rate based on the number of bits actually set in this Bloom Filter
 - numBitsSet():  Returns the current number of bits actually set in this Bloom Filter
 
